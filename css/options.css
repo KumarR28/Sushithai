@@ -73,3 +73,9 @@ h6 { font-size: 1.2em; }
 #fmodules h3 { font-size: 1.8em; }
 
 #nav a { font-size: 1.3em; }
+
+.coupon {
+   width: 401px;
+   padding: 10px;
+   text-align: center;
+   border: 3px dashed #ccc; }

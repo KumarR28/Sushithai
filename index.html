@@ -63,18 +63,7 @@
 	<script src='/Pwiki_analytics_auto.js'></script>
 	
 </head>
-<!-- Piwik --> 
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://typeserve.com/2analytics/" : "http://typeserve.com/2analytics/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 6);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="http://typeserve.com/2analytics/piwik.php?idsite=6" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tracking Code -->
+
 
 
 <!--[if IE 7 ]>    <body class="ie7 ie"> <![endif]--> 
@@ -194,20 +183,26 @@ piwikTracker.enableLinkTracking();
 				<div class="separator clear"></div>
 				
 				<div class="module ">
-					<h3><span class="ribbon">Opening hours</span></h3>
+					<h3><span class="ribbon">Our Hours</span></h3>
 					<table>
 						<tbody>
 							<tr>
-                           
-								<td>Monday - Saturday:</td>
+								<td>Monday:</td>
+								<td><strong>Closed</strong>
+                                 </td>
+							</tr>
+                            <tr>
+                           <td>Tuesday - Saturday:</td>
 
 								<td>Lunch - <strong>11:30am to 2:30pm</strong><br/>
                                 Dinner - <strong>4:30pm to 10:00pm</strong><br/>
                                  </td>
 							</tr>
 							<tr>
-								<td>Sunday:</td>
-								<td>Dinner - <strong>4:00pm to 9:00pm</strong><br/></td>
+                           <td>Sunday:</td>
+
+								<td><strong>4:00pm to 8:00pm</strong><br/>
+                                 </td>
 							</tr>
 						</tbody>
 
@@ -231,8 +226,25 @@ Business Phone: <strong>614-866-3813</strong>
 			<div class="right content">
 				<div class="separator"></div>
 				
-				<div class="small carte-footer">
-					<form action="#" method="post" id="search-form"><!--
+				<div class="small carte-footer"> </p><h3>Lets get social!</h3>
+                    <p><table width="100%" border="0">
+  <tr>
+    <td><a href="http://www.yelp.com/biz/sushi-thai-pickerington" target="new"><img src="images/social/yelp.png" width="50" height="50" alt="Yelp"></a>
+</td>
+    <td><a href="http://4sq.com/JOGJfY" target="new"><img src="images/social/foursquare_checkin.png" width="50" height="50" alt="4Square"></a></td>
+    <td><a href="https://www.facebook.com/Sushithaiohio" target="new"><img src="images/social/facebook button-logo.png" width="50" height="50" alt="Facebook"></a></td>
+  </tr>
+</table>
+</p>
+                
+                <!--<p><strong>Hours:</strong><Br>Monday - Friday  Dinner 4:30pm - 10:00pm<br/>
+               Monday - Friday Lunch 11:30am - 2:30pm <br>
+               Saturday Dinner 4:00pm - 10:00pm<br/>
+               Sunday Lunch - Dinner 1:00pm - 8:00pm 
+               
+ </p> -->
+					<!--<form action="#" method="post" id="search-form"> -->
+						<!--
 						<div class="search-wrap">
 							<input name="searchword" maxlength="50" class="hidevalue search-field inputbox" type="search" size="50" value="Search..." />
 							<input type="submit" value="" class="search-button-image" onclick="this.form.searchword.focus();" />
@@ -335,6 +347,23 @@ Business Phone: <strong>614-866-3813</strong>
 		});
 	});
 	</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.sushithaipickerington.com"]);
+  _paq.push(["setDomains", ["*.sushithaipickerington.com"]]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
 
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://typeserve.com/2analytics/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "6"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
 </body>
 </html>
